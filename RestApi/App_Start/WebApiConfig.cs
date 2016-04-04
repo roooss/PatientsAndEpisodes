@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using RestApi.App_Start;
+using System.Web.Http;
 
 namespace RestApi
 {
@@ -6,6 +7,11 @@ namespace RestApi
     {
         public static void Register(HttpConfiguration config)
         {
+            // Web API configuration and services
+            var container = IocContainer.ConfigureIocContainer();
+            config.DependencyResolver = IocContainer.GetDependencyResolver(container);
+            
+
             config.Routes.MapHttpRoute(
                 name: "Patients and episodes",
                 routeTemplate: "patients/{patientId}/episodes",

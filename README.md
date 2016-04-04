@@ -22,4 +22,5 @@ Given the time;
 - I would have wrapped those in a unit of work.
 - I would have removed the logic from the api action and created a service class that privdes the data it needs.
 - I would have had more clearly defined tests for each layer (data access, business logic, presentation)
+- I would have added the solution to some form on CI so i can continually commit, build/deploy and run tests.
 

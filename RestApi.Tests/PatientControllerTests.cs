@@ -1,21 +1,17 @@
-﻿using Microsoft.Practices.Unity;
-using NUnit.Framework;
-using RestApi.App_Start;
-using RestApi.Controllers;
-using RestApi.Interfaces;
-using RestApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Http;
-using System.Web.Http.Dependencies;
-
-namespace RestApi.Tests
+﻿namespace RestApi.Tests
 {
+    using Microsoft.Practices.Unity;
+    using NUnit.Framework;
+    using RestApi.App_Start;
+    using RestApi.Controllers;
+    using RestApi.Interfaces;
+    using RestApi.Models;
+    using System.Linq;
+    using System.Net;
+    using System.Net.Http;
+    using System.Web.Http;
+    using System.Web.Http.Dependencies;
+
     [TestFixture]
     public class PatientControllerTests
     {

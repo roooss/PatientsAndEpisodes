@@ -2,11 +2,10 @@
 
 Hello there.
 
-Firstly, I'd like to say i enjoyed this challenge and it took me around two hours to complete.
+Firstly, I'd like to say i enjoyed this challenge and it took me around two hours to complete (including the 'research and planning').
 I was really puzzled by the way the following parts of the task were worded;
 
 - Devise a way to override registrations within the DI container.
-- Create a unit test project using NUnit.
 - Write unit tests that call the IoC container (with everything pre-registered) to get an instance of the controller, but substituting the 'real' data context for the in-memory one, and verify 
 
 It was odd to me that you weren't mentioning Mocking or anything and was sure it was an oversight. Any how, after a little digging around I understood what you were asking for (or at least I think I did) and proceeded accordingly, it is not an approach I have taken myself before so it was interesting to me.
